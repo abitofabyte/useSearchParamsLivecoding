@@ -1,3 +1,5 @@
+import {useSearchParams} from "react-router-dom";
+
 export function ColorPicker({ colors, selectedColor, onSelect }) {
 	return (
 		<div className="btn-container">
