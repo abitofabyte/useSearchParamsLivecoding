@@ -9,12 +9,12 @@ export function ProductList() {
 	const products = useLoaderData()
 
 	return (
-		<div className="flex gap-2">
+		<div className="product-list">
 			{products.map((product) => (
 				<Link
 					key={product.name}
 					to={product.name}>
-					<button>{product.name}</button>
+					<button className="product-list-button">{product.name}</button>
 				</Link>
 			))}
 		</div>

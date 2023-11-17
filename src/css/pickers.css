@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     height: 2.5em;
+    width: 10em;
 }
 .btn-container > * {
     width: 100%;

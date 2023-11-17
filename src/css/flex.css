@@ -1,9 +1,0 @@
-.flex {
-    display: flex;
-}
-.flex-colum {
-    flex-direction: column;
-}
-.gap-2 {
-    gap: 2em;
-}
