@@ -16,6 +16,7 @@
 .btn-container > button:active,
 .btn-container > button:hover {
     box-shadow: 0 0 5px 1px #f9f9f9;
+    z-index: 1;
 }
 
 .btn-container :first-child {
