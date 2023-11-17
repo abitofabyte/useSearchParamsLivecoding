@@ -15,10 +15,10 @@ export function ProductPage() {
 	const [selectedSize, setSelectedSize] = useState()
 
 	const handleColorSelect = (color) => {
-		setSelectedColor((prev) => (color != selectedColor ? color : undefined))
+		setSelectedColor(color != selectedColor ? color : undefined)
 	}
 	const handleSizeSelect = (size) => {
-		setSelectedSize((prev) => (size != selectedSize ? size : undefined))
+		setSelectedSize(size != selectedSize ? size : undefined)
 	}
 
 	return (
